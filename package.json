@@ -15,11 +15,17 @@
   "dependencies": {
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
+    "bootstrap": "^4.1.3",
+    "css": "^2.2.4",
+    "css-loader": "^1.0.0",
     "firebase": "^5.4.1",
     "history": "^4.7.2",
+    "loader": "^2.1.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-router-dom": "^4.3.1"
+    "react-router-dom": "^4.3.1",
+    "reactstrap": "^6.4.0",
+    "style-loader": "^0.23.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
