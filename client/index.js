@@ -1,6 +1,7 @@
-import firebase from 'firebase';
+import firebase from 'firebase/app';
 import React from "react";
 import ReactDOM from "react-dom";
+import Routes from './routes';
 
 var config = {
     apiKey: "AIzaSyAf11bA9NheHrZy3v97wQ2IIEJvBFcBuAU",
@@ -13,6 +14,6 @@ var config = {
 firebase.initializeApp(config);
 
 ReactDOM.render(
-    <div>Hello, world!</div>,
-    document.getElementById('app') // make sure this is the same as the id of the div in your index.html
+    <Routes />,
+    document.getElementById('app')
 );
